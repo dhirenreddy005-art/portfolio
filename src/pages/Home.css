@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+/* PAGE */
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 850px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+/* HERO */
+.hero h1 {
+  font-size: 44px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.hero span {
+  color: #6ee7b7; /* pastel mint */
+}
+
+.subtitle {
+  color: #aaa;
+  margin: 10px 0 25px;
+  font-size: 15px;
+}
+
+/* BUTTONS */
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+/* PRIMARY */
+.btn-primary {
+  background: #6ee7b7;
+  color: #000;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background: #34d399;
+  box-shadow: 0 0 12px rgba(110, 231, 183, 0.7);
+}
+
+/* OUTLINE */
+.btn-outline {
+  border: 1px solid #444;
+  color: #fff;
+}
+
+.btn-outline:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* LINKEDIN BUTTON */
+.btn-linkedin {
+  background: #0a66c2;
+  color: #fff;
+}
+
+.btn-linkedin:hover {
+  background: #004182;
+  box-shadow: 0 0 10px rgba(10, 102, 194, 0.7);
+}
+
+/* CARD */
+.card {
+  background: #f5f5f5;   /* softer than white */
+  color: #000;
+  border-radius: 14px;
+  padding: 22px;
+  margin-top: 25px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+/* TEXT */
+.card h2 {
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.card p {
+  color: #333;
+  line-height: 1.6;
+}
+
+.card ul {
+  color: #333;
+  padding-left: 18px;
+}
+
+.card li {
+  margin-bottom: 6px;
+}
+
+/* SKILLS */
+.skills {
+  margin-top: 10px;
+}
+
+.skills span {
+  display: inline-block;
+  margin: 5px;
+  padding: 6px 12px;
+  background: #e5e7eb;
+  border-radius: 20px;
+  font-size: 13px;
+  color: #111;
+  transition: 0.2s;
+}
+
+.skills span:hover {
+  background: #6ee7b7;
+  color: #000;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #777;
+  font-size: 13px;
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  display: block;
+}
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .btn-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
