@@ -3,7 +3,7 @@
 "version": "0.1.0",
 "private": true,
 
-"homepage": "https://dhirenreddy005-art.github.io/d_portfolio",
+"homepage": "https://dhirenreddy005-art.github.io/portfolio",
 
 "dependencies": {
 "@testing-library/dom": "^10.4.1",
